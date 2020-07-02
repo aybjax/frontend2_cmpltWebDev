@@ -1,0 +1,68 @@
+body {
+    background: url("imgs/bg.jpg") center center fixed;
+    background-size: cover;
+    color: #fff;   
+}
+
+#header a {
+    color: #fff;
+}
+
+#header {
+    text-align: center;
+    font-size: 7vw;
+}
+
+#laptime{
+    text-align: right;
+    font-size: 4vw;
+}
+
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+
+#ctrcontainer{
+    margin-bottom: 100px;
+}
+
+.ctr{
+    color: #fff;
+    background-color: #d7A04e;
+    border-radius: 100px;
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
+    padding: 30% 0;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.ctr:active{
+    background-color: #fff;
+    color: #d7A04e;
+}
+
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+    font-size: 4vw;
+}
+
+.lap{
+    margin: 15px;
+}
+
+.lapNbr{
+    float: left;
+}
+
+.lapTime{
+    float: right;
+}
+
+.break{
+    clear:both;
+    border-bottom: 1px solid white;
+}

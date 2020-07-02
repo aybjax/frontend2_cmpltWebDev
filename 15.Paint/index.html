@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+	    <link rel="stylesheet" href="style.css" type="text/css">
+	
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+
+    <title>Paint</title>
+    </head>
+    <body>
+        <a title="Go Home" href="../..">
+            <div id="header">Drawing App</div>
+        </a>
+        <div id="inputContainer">
+            <div class="input" id="colorInput">
+                <input id="paintColor" type="color" list>
+            </div>
+
+            <div class="input" id="thickness">
+                <div id="circle"></div>
+            </div>
+
+            <div class="input">
+                <div id="slider"></div>
+            </div>
+        </div>
+
+
+        <div id="canvasContainer">
+            <canvas id="canvas" width="800px" height="600px";">
+
+            </canvas>
+        </div>
+
+
+        <div id="buttonContainer">
+            <div class="btnDiv">
+                <span id="erase" class="button">Erase</span>
+            </div>
+            <div class="btnDiv">
+                <span id="save" class="button">Save</span>
+            </div>
+            <div class="btnDiv">
+                <span id="reset" class="button">Reset</span>
+            </div>
+        </div>
+        
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="javascript.js"></script>
+    </body>
+</html>

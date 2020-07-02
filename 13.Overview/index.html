@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
+    <title>Overview</title>
+  </head>
+  <body data-spy="scroll" data-target="#topnavbar">
+	  <video autoplay loop muted id="bgvideo">
+		  <source src="album/nature.mp4" type="video/mp4">
+	  </video>
+	  <nav class="navbar navbar-custom navbar-fixed-top" id="topnavbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand">My Programming Journey</a>
+				<button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+					<span class="sr-only">Toggle navigation</span>      
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#project">Projects</a></li>
+				</ul>
+			</div>
+		</div>
+	  </nav>
+	  <div class="jumbotron" id="home">
+		  <div class="container">
+			  <h1>One month of experience</h1>
+			  <h2>HTML5, CSS3, Flexbox, Javascript, JQuery and Bootstrap</h2>
+			  <p><a href="../.." class="btn btn-primary">Go to Homepage</a></p>
+		  </div>
+	  </div>
+	  <div class="container" id="skill">
+		  <h1 class="titles">Previous experience</h1 class="titles">
+		  <div class="row">
+			<div class="col-md-4">
+				<img src="album/python.png" class="skillimage">
+				<h2>Python3 experience</h2>
+				<p>Use of Python3 for more than 1 year. Introduction to Python2.7 since 2016. Use of numpy, pandas, machine learning and neural networking. Most experience</p>
+			</div>
+			<div class="col-md-4">
+				<img src="album/golang.png" class="skillimage">
+				<h2>Golang-go use for 1 month</h2>
+				<p>First compiled language successfully learned. Fascinated by Golang-go and new scope of thinking is brought by it</p>
+			</div>
+			<div class="col-md-4">
+				<img src="album/bash.png" class="skillimage" id="bash">
+				<h2>Linux user for a year now</h2>
+				<p>Introduction to GNU-Linux & Bash due to the old laptop's inability to run on Windows 7. Been using Linux Mint with Cinnamon Desktop. Nowadays moved to Ubuntu 19.10 as it was required to have later version of Golang-go in VS Code debugging. Installed Cinnamon desktop environemnt as it is loved much. However, KDE plasma could be used if figured out how to use multiple desktops</p>
+			</div>
+	  </div>
+
+
+	  <div id="project" class="container-fluid">
+		  <h1 class="titles text-capitalize">project in fullstack web development so far</h1>
+		<div class="carousel slide" id="carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+				<li data-target="#carousel" data-slide-to="3"></li>
+				<li data-target="#carousel" data-slide-to="4"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<a href="http://aybat.host20.uk/webSites/mathFlexBox/">
+					<img src="album/00.png">
+					</a>
+					<div class="carousel-caption">
+						<h2>Math Website</h2>
+					</div>
+				</div>
+				<div class="item">
+					<a href="http://aybat.host20.uk/webSites/mathJS/">
+					<img src="album/01.png">
+					</a>
+					<div class="carousel-caption">
+						<h2>Fruit Game</h2>
+					</div>
+				</div>
+				<div class="item">
+					<a href="http://aybat.host20.uk/webSites/fruitJQ/">
+					<img src="album/02.png" >
+					</a>
+					<div class="carousel-caption">
+						<h2>Fruit Game</h2>
+					</div>
+				</div>
+				<div class="item">
+					<a href="http://aybat.host20.uk/webSites/appBootstrap/">
+					<img src="album/03.png" >
+					</a>
+					<div class="carousel-caption">
+						<h2>Fruit Game</h2>
+					</div>
+				</div>
+				<div class="item">
+					<a href="http://aybat.host20.uk/webSites/companyBootstrap/">
+					<img src="album/04.png" >
+					</a>
+					<div class="carousel-caption">
+						<h2>Fruit Game</h2>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		<p class="titles">click on images to see above webpages</p>
+	  </div>
+	  <div class="footer">
+		  <div class="container-fluid">
+		  &copy;Develop with aybjax
+		</div>
+	  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+	  $(function(){
+		  $(".carousel").carousel({
+			  interval:5000
+		  })
+	  })
+  </script>
+</body>
+</html>

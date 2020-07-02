@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+	    <link rel="stylesheet" href="style.css" type="text/css">
+	
+	    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
+    <title>StopWatch App</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!--title-->
+            <div id="header">
+                <a href="../.." title="Go home" data-toggle="tooltip">Stopwatch</a>
+            </div>
+            
+            <!--Laptime with min sec -->
+            <div id="laptime">
+                <span id="lapmin">00</span>
+                :
+                <span id="lapsec">00</span>
+                :
+                <span id="lapcent">00</span>
+            </div>
+
+            <!--time with min sec -->
+            <div id="time">
+                <span id="min">00</span>
+                :
+                <span id="sec">00</span>
+                :
+                <span id="cent">00</span>
+            </div>
+
+            <!--Controls-->
+            <div class="row" id="ctrcontainer">
+                <div class="col-xs-2 col-xs-offset-4">
+                    <div id="start" class="ctr">Start</div>
+                    <div id="stop" class="ctr">Stop</div>
+                    <div id="resume" class="ctr">Resume</div>
+                </div>
+                <div class="col-xs-2">
+                    <div id="lap" class="ctr">Lap</div>
+                    <div id="reset" class="ctr">Reset</div>
+                </div>
+            </div>
+
+
+            <!--Lap boxes-->
+            <div id="laps">
+
+            </div>
+
+        </div>
+
+
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="stopwatch.js"></script>
+    </body>
+</html>
